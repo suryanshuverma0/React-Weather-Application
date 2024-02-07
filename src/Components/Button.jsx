@@ -5,7 +5,7 @@ function Button({ onClick,text, color}) {
 // const buttonStyle = "bg-red-500 hover:red-700 rounded-md px-4 py-2 text-2";
   return (
     <div>
-      <button className = {`bg-${color}-500 hover:bg-${color}-700 rounded-md px-4 py-2 text-2 text-white`} onClick={onClick}>
+      <button className = {`bg-${color}-500 hover:bg-${color}-700 rounded-md px-4 py-2 text-4xl text-white`} onClick={onClick}>
         {text}
       </button>
     </div>

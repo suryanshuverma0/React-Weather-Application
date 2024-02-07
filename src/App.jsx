@@ -1,18 +1,13 @@
 import "./App.css";
 // Update this import statement in 'App.jsx'
-import Navbar from "../src/Components/Navbar";
 import Temperature from "./Temperature";
 import Highlights from "./Components/Highlights";
 import { useState } from "react";
 function App() {
   const [weatherData, setWeatherData] = useState(null);
 
-
   return (
     <div className="bg-[#1F213A] h-screen">
-      <div>
-        <Navbar />
-      </div>
       <div className="flex justify-center pt-28 gap-2">
         <div className="w-1/3 h-96 text-center pt-4">
           <Temperature
